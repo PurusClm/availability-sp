@@ -46,13 +46,13 @@ I recommend authors of planet mods who are interested in this feature to fill th
 - By marking this mod as an optional dependency of your planet mod, a global variable `Avail_SP.avl_chart` should be made available in data phase.
 
 - Then, you can fill the ratings in by including something like this:
-```
-Avail_SP.avl_chart["<planet name>"] = {<ratings>}
-```
-where `{<ratings>}` is an array of resources rating of wood, stone, iron, copper, respectively. So for Vulcanus without sulfuric bacteria, this is:
-```
-Avail_SP.avl_chart["vulcanus"] = {1, 4, 3, 3}
-```
+  ```
+  Avail_SP.avl_chart["<planet name>"] = {<ratings>}
+  ```
+  where `{<ratings>}` is an array of resources rating of wood, stone, iron, copper, respectively. So for Vulcanus without sulfuric bacteria, this is:
+  ```
+  Avail_SP.avl_chart["vulcanus"] = {1, 4, 3, 3}
+  ```
 - The pre-packed ratings are implemented in data-updates phase. If the rating field of a planet is already filled out by then, this mod will skip that planet to respect the values assigned earlier.
 
 # Credits
