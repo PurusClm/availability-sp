@@ -1,0 +1,13 @@
+{
+  "name": "availability-sp",
+  "version": "0.1.0",
+  "title": "Resource Availability as Surface Property",
+  "author": "Gnavianus",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.0",
+    "space-age >= 2.0.0",
+    "? Cerys-Moon-of-Fulgora"
+  ],
+  "description": "Assign resouces availability ratings to each surface, so that mods may choose the most adequate recipe etc. based on this information."
+}
