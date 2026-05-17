@@ -1,4 +1,4 @@
-# availability-sp**This mod is a modding utility and does (almost) nothing on its own.**
+**This mod is a modding utility and does (almost) nothing on its own.**
 
 Reorganizing resources structure is frequently implemented by planet and overhaul mods to incentivize new factory designs instead of copy-pasting the same set of blueprints everywhere. While this method is effective at introducing fresh experience to the game, it can cause compat disasters, as some items intentionally removed or made harder to obtain by one mod might just be required by new recipes from another mod. This mod aims to resolve this kind of problem by serving as a informant hub, providing openly accessible, *manually assigned* ratings of the difficulty to obtain different forms of basic resources on a surface as surface properties, which can then be refered to by other mods to decide whether and how some changes should be enforced on different surfaces, without having to work on compat case-by-case.
 
