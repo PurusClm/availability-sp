@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2026-05-22
+  Changes:
+    - Change the order of the changelog so that the later version is on top of the earlier.
+    - Fixed a mis-formating in the changelog.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2026-05-22
+  Bugfixes:
+    - Fixed a typo that erases the surface conditions of planets.
+    - Made the changelog working.
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-05-17
-  Initial commit.
+  Changes:
+    - Initial commit.

@@ -19,7 +19,7 @@ local function assign_avl(surface, values)
         unlogged = false
     end
 
-    data.raw[type][surface].surface_properties = data.raw[type][surface].surface_property or {}
+    data.raw[type][surface].surface_properties = data.raw[type][surface].surface_properties or {}
     data.raw[type][surface].surface_properties["wood-avl"] = values[1]
     data.raw[type][surface].surface_properties["stone-avl"] = values[2]
     data.raw[type][surface].surface_properties["iron-avl"] = values[3]
